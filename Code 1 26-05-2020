@@ -1,0 +1,40 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String args[] ) throws Exception {
+        
+        Scanner s=new Scanner(System.in);
+        String i=s.nextLine();
+        if(i.contains("a")||i.contains("e")||i.contains("i")||i.contains("o")||i.contains("u"))
+        {
+        if(i.contains("a"))
+        {
+            System.out.print("a");
+        }
+        if(i.contains("e"))
+        {
+            System.out.print("e");
+        }
+        if(i.contains("i"))
+        {
+            System.out.print("i");
+        }
+        if(i.contains("o"))
+        {
+            System.out.print("o");
+        }
+        if(i.contains("u"))
+        {
+            System.out.print("u");
+        }
+        }
+        else
+        {
+            System.out.print("Thank You");
+        }
+    }
+}
