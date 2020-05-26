@@ -3,11 +3,11 @@ public class Main
 {
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
-        int m=0;
-        while(m<=100)
+        int n=1;
+        while(n<=100)
         {
-            System.out.print(m+" ");
-            m+=2;
+            System.out.print(n+" ");
+            n+=2;
         }
         
 	}
